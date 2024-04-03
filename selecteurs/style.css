@@ -1,0 +1,70 @@
+ul {
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    width: 20%;
+    list-style: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/*titre avec de l'ombrage */
+.title {
+    box-shadow: 0px 0px 3px black;
+    text-shadow: 3px 3px 3px black;
+    color: cyan;
+}
+
+ul a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    width: 100%;
+    display: block;
+    padding: 5px;
+}
+
+ul a:hover {
+    background: gray;
+    border-radius: 5px;
+    border-bottom: solid 2px blue;
+    color: blue;
+    text-align: end;
+}
+
+/*selecteur descandant*/
+/*applique un style a tout les 'a' qui sont dans des 'li'*/
+/*li a {*/
+/*    font-size: 39px;*/
+/*}*/
+
+/*selecteur descandant direct */
+/*applique un style a tout les 'a' qui sont directement dans des 'li'*/
+li > span > a {
+    font-size: 39px;
+}
+
+input {
+    border: solid 1px red;
+}
+
+input[type="tel"] {
+    border: solid 1px cyan;
+}
+
+
+
+/*selecteur d'attribut sur le 'alt' de la balise "img"'*/
+img {
+    width: 60px;
+    height: 60px;
+}
+
+.logo{
+    width: 10px !important;
+    height: 10px !important;
+}
+
+img[alt]{
+    width: 30px !important;
+    height: 30px !important;
+}
